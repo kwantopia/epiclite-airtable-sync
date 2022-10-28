@@ -21,6 +21,9 @@ $ pip3 install virtualenv
 # creates venv virtualenv in project directory
 $ cd project_dir
 $ virtualenv venv
+
+# for making sure you can also install from source archives
+$ python3 -m pip install --upgrade pip setuptools wheel
 ```
 
 Freeze Requirements
